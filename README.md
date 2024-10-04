@@ -74,7 +74,7 @@ This project is licensed under the MIT License.
 
 ## Links
 
-[* GitHub Repository](https://github.com/xdearboy/dec64) | [ Website ](https://dec64.garticrashers.ru/)
+[ GitHub Repository ](https://github.com/xdearboy/dec64) | [ Website ](https://dec64.garticrashers.ru/) | [ PyPi ](https://pypi.org/project/dec64/)
 
 ## Contributing
 
