@@ -1,6 +1,8 @@
 
 <div align="center">
 
+<img src="https://i.imgur.com/3k78kic.png" alt="dec64 banner" width="100%">
+
 # 🔐 dec64
 
 [![PyPI version](https://badge.fury.io/py/dec64.svg)](https://badge.fury.io/py/dec64)
