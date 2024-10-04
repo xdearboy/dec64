@@ -44,8 +44,8 @@ class DecoderApp:
                   Available options:
       -h Sends you this help.
       -f FILE, --file The path to the file
-      -t ТЕКСТ, --text  Text to decode
-      -o РЕЗУЛЬТАТ, --output  The path to the result file.
+      -t TEXT, --text  Text to decode
+      -o RESULT, --output  The path to the result file.
             """)
             sys.exit(1)
 
