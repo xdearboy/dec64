@@ -74,7 +74,7 @@ This project is licensed under the MIT License.
 
 ## Links
 
-[* GitHub Repository](https://github.com/xdearboy/dec64)
+[* GitHub Repository](https://github.com/xdearboy/dec64) | [ Website ](https://dec64.garticrashers.ru/)
 
 ## Contributing
 
