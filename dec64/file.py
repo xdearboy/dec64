@@ -35,7 +35,7 @@ class DecoderApp:
         else:
             print("Error: No input file or text provided.")
             print("""
-                  Usage: dec64.py [-h] [-f File.txt] [-t Text] [-o Output.txt]
+                  Usage: dec64.py [-h] [-f File.txt] [-t Text]
 
 
                   Recursively decode Base64 encoded strings.
@@ -45,7 +45,6 @@ class DecoderApp:
       -h Sends you this help.
       -f FILE, --file The path to the file
       -t TEXT, --text  Text to decode
-      -o RESULT, --output  The path to the result file.
             """)
             sys.exit(1)
 
