@@ -1,26 +1,26 @@
-import base64
 import argparse
-import sys
+import base64
 from .Base64Decoder import Base64Decoder
 
 
 class File:
-    def read_from_file(self, file_path):
-        with open(file_path, "r") as file:
-            return file.read()
+    pass
 
 
-class DecoderApp:
+class Dec64App:
     def __init__(self):
         self.decoder = Base64Decoder()
-        self.file_work = File()
 
     def decode_from_file(self, file_path):
-        encoded_str = self.file_work.read_from_file(file_path)
+        encoded_str = self.read_from_file(file_path)
         return self.decoder.decode_until_end(encoded_str)
 
     def decode_from_text(self, encoded_text):
         return self.decoder.decode_until_end(encoded_text)
+
+    def read_from_file(self, file_path):
+        with open(file_path, "r") as file:
+            return file.read()
 
     def run(self):
         parser = argparse.ArgumentParser(description="Decode base64 encoded text.")
@@ -46,13 +46,13 @@ class DecoderApp:
       -f FILE, --file The path to the file
       -t TEXT, --text  Text to decode
             """)
-            sys.exit(1)
+            exit(1)
 
         print("Decoded text:", decoded_text)
 
 
 def main():
-    app = DecoderApp()
+    app = Dec64App()
     app.run()
 
 

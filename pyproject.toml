@@ -26,4 +26,4 @@ dynamic = ["version"]
 Home = "https://github.com/xdearboy/dec64"
 
 [project.scripts]
-dec64 = "dec64.__main__:main"
+dec64 = "dec64.file:main"

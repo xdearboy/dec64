@@ -49,7 +49,7 @@ from dec64 import Base64Decoder
 decoder = Base64Decoder()
 
 encoded_string = "SGVsbG8sIHdvcmxkIGZyb20gZGVjNjQh"
-decoded_string = decoder.decode(encoded_string)
+decoded_string = decoder.decode_until_end(encoded_string)
 
 print(decoded_string)
 ```
