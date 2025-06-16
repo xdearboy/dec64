@@ -4,6 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "dec64"
+version = "0.0.4"
 authors = [{name = "xdearboy", email = "BigManClub@gmail.com"}]
 description = "Recursively decode Base64 encoded strings."
 readme = "README.md"
@@ -20,7 +21,6 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
 ]
-dynamic = ["version"]
 
 [project.urls]
 Home = "https://github.com/xdearboy/dec64"
