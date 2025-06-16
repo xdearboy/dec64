@@ -11,4 +11,4 @@ from .file import Dec64App, Base64Decoder
 
 __all__ = ["Dec64App", "Base64Decoder"]
 
-__version__ = "0.0.3"
+__version__ = "0.0.4"
